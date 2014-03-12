@@ -3,9 +3,9 @@
 xmlns = "http://www.w3.org/ns/widgets"
 xmlns:gap = "http://phonegap.com/ns/1.0"
 id = "com.nsbasic.SqueezeUrMind"
-version = "1.0.5">
+version = "1.0.6">
 
-<name>WWTBM</name>
+<name>SqueezeUrMind</name>
 <description></description>
 <preference name="phonegap-version" value="3.1.0" />
 

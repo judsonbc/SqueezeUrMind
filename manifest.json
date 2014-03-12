@@ -1,6 +1,6 @@
 { "manifest_version": 2,
-  "name": "WWTBM",
-  "version": "1.0.5",
+  "name": "SqueezeUrMind",
+  "version": "1.0.6",
   "offline_enabled": true,
   "description": "",
   "icons": { "16": "nsb/images/16.png",
