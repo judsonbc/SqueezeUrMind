@@ -366,25 +366,25 @@ Image3.onclick = function() { savethefunction_rvar="";
   NextIs = 1;
   WhatIs = 1;
   if(! Fifty_Option && ! OptionNow) {
-    Answer1.hidden = True;
-    Answer2.hidden = True;
-    Answer3.hidden = True;
-    Answer4.hidden = True;
+    Answer1.textContent  = "";
+    Answer2.textContent  = "";
+    Answer3.textContent  = "";
+    Answer4.textContent  = "";
 
-    if(Answer1.textContent == Ans[Qnum][5]) {
-        Answer1.hidden = False;
+    if(Ans[Qnum][1] == Ans[Qnum][5]) {
+        Answer1.textContent = Ans[Qnum][1];
         WhatIs = 1;
     }
-    if(Answer2.textContent == Ans[Qnum][ 5]) {
-        Answer2.hidden = False;
+    if(Ans[Qnum][2] == Ans[Qnum][5]) {
+        Answer2.textContent = Ans[Qnum][2];
         WhatIs = 2;
     }
-    if(Answer3.textContent== Ans[Qnum][ 5]) {
-        Answer3.hidden = False;
+    if(Ans[Qnum][3] == Ans[Qnum][5]) {
+        Answer3.textContent = Ans[Qnum][3];
         WhatIs = 3;
     }
-    if(Answer4.textContent == Ans[Qnum][ 5]) {
-        Answer4.hidden = False;
+    if(Ans[Qnum][4] == Ans[Qnum][5]) {
+        Answer4.textContent = Ans[Qnum][4];
         WhatIs = 4;
     }
 
@@ -393,19 +393,19 @@ Image3.onclick = function() { savethefunction_rvar="";
     if(NextIs > 4 ) { NextIs = NextIs - 4; }
 
     if(NextIs == 1) {
-      Answer1.hidden = False;
+      Answer1.textContent  = Ans[Qnum][1];
     }
 
     if(NextIs == 2) {
-      Answer2.hidden = False;
+      Answer2.textContent  = Ans[Qnum][2];
     }
 
     if(NextIs == 3) {
-      Answer3.hidden = False;
+      Answer3.textContent  = Ans[Qnum][3];
     }
 
     if(NextIs == 4) {
-      Answer4.hidden = False;
+      Answer4.textContent  = Ans[Qnum][4];
     }
 
     Fifty_Option = True;
@@ -419,25 +419,25 @@ Image4.onclick = function() { savethefunction_rvar="";
   NextIs = 1;
   WhatIs = 1;
   if(! Croud_Option && ! OptionNow) {
-    Answer1.hidden = True;
-    Answer2.hidden = True;
-    Answer3.hidden = True;
-    Answer4.hidden = True;
+    Answer1.textContent  = "";
+    Answer2.textContent  = "";
+    Answer3.textContent  = "";
+    Answer4.textContent  = "";
 
-    if(Answer1.textContent == Ans[Qnum][5]) {
-        Answer1.hidden = False;
+    if(Ans[Qnum][1] == Ans[Qnum][5]) {
+        Answer1.textContent = Ans[Qnum][1];
         WhatIs = 1;
     }
-    if(Answer2.textContent == Ans[Qnum][ 5]) {
-        Answer2.hidden = False;
+    if(Ans[Qnum][2] == Ans[Qnum][5]) {
+        Answer2.textContent = Ans[Qnum][2];
         WhatIs = 2;
     }
-    if(Answer3.textContent== Ans[Qnum][ 5]) {
-        Answer3.hidden = False;
+    if(Ans[Qnum][3] == Ans[Qnum][5]) {
+        Answer3.textContent = Ans[Qnum][3];
         WhatIs = 3;
     }
-    if(Answer4.textContent == Ans[Qnum][ 5]) {
-        Answer4.hidden = False;
+    if(Ans[Qnum][4] == Ans[Qnum][5]) {
+        Answer4.textContent = Ans[Qnum][4];
         WhatIs = 4;
     }
 
