@@ -3,7 +3,7 @@
 xmlns = "http://www.w3.org/ns/widgets"
 xmlns:gap = "http://phonegap.com/ns/1.0"
 id = "com.nsbasic.SqueezeUrMind"
-version = "1.0.8">
+version = "1.0.17">
 
 <name>SqueezeUrMind</name>
 <description></description>
