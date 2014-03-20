@@ -36,15 +36,15 @@ window.addEventListener('load', function() {
 
   NSB.addProperties(Score);
 NSB.addProperties(ProgressBar1);
-
-
-  NSB.addProperties(GameO);
   NSB.NavBar_jqm_init('NavBar2','Restart Game');
   NSB.addProperties(NavBar2);
   (function(){var d,i,s=''.split(',');for(i=0;i<s.length;i++){if(trim(s[i])!=''){d=document.getElementById('NavBar2_'+i);(function(i){d.onclick=function(){ChangeForm(document.getElementById(s[i]))}})(i)}}})()
 NSB.addProperties(Audio2);
 NSB.addProperties(Audio3);
 NSB.addProperties(Audio4);
+
+
+  NSB.addProperties(GameO);
   Form1.style.display = 'none';
 }, false);
 Form1.onsubmit=function(event){window.event.stopPropagation();window.event.preventDefault()};
@@ -62,7 +62,8 @@ Skip_Option = False;
 OptionNow = False;
 Lnum = 1;
 
-NavBar2.hidden = True;
+nsbDOMAttr(NavBar2,'style.display', "none");
+nsbDOMAttr(GameO,'style.display', "none");
 MaxQ[1] = 27;
 MaxQ[2] = 21;
 MaxQ[3] = 14;
@@ -668,8 +669,9 @@ NavBar1.onclick = function(choice) { savethefunction_rvar="";
         Audio4.play();
         GameOver = True;
         GameO.hidden = False;
-        NavBar1.hidden = True;
-        NavBar2.hidden = False;
+        nsbDOMAttr(NavBar1,'style.display', "none");
+        nsbDOMAttr(NavBar2,'style.display', "");
+        nsbDOMAttr(GameO,'style.display', "");
         clearInterval(timeref);
          return savethefunction_rvar;
     }
@@ -787,8 +789,12 @@ function Timer() { savethefunction_rvar="";
       _msgbox_confirm("Game Over");
       GameO.hidden = False;
       GameOver = True;
-      NavBar1.hidden = True;
-      NavBar2.hidden = False;
+ //NavBar1.hidden = True
+ //NavBar2.hidden = False
+      nsbDOMAttr(NavBar1,'style.display', "none");
+      nsbDOMAttr(NavBar2,'style.display', "");
+      nsbDOMAttr(GameO,'style.display', "");
+
       Audio4.play();
       clearInterval(timeref);
     }
@@ -809,8 +815,10 @@ NavBar2.onclick = function() { savethefunction_rvar="";
   Image3.firstChild.src = "images/50.png";
   Image4.firstChild.src = "images/croud.png";
   Lnum = 1;
-  NavBar2.hidden = True;
-  NavBar1.hidden = False;
+  nsbDOMAttr(NavBar1,'style.display', "");
+  nsbDOMAttr(NavBar2,'style.display', "none");
+  nsbDOMAttr(GameO,'style.display', "none");
+
   for   (x =1; x  <= 100; x ++) {
     DoneQ[x] = "";
   }

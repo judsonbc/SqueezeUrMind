@@ -11,9 +11,9 @@ Form1.innerHTML=[  "<div id='Image1' ><img src='images/bg.jpg'  height=100% widt
   "<div id='Image4' ><img src='images/croud.png'  height=100% width=100% name='Image4_img' style='' usemap='Image4_map'/></div>",
   "<label id='Score' class='graytitle' style='text-align:left;  font-size:16px; font-family:helvetica; font-style:normal; font-weight:bold; color:red; background-color:transparent; border-style:;border-color:transparent;border-width:1px; ' >0</label>",
   "<progress id='ProgressBar1' class='' max=60 value=60 style='' ></progress>",
-  "<label id='GameO' class='graytitle' style='text-align:center;  font-size:70px; font-family:helvetica; font-style:normal; font-weight:bold; color:RED; background-color:transparent; border-style:;border-color:transparent;border-width:1px; ' hidden=\'true\'>GAME OVER!</label>",
   NSB.NavBar_jqm('NavBar2', 'Restart Game', '12', 'helvetica', 'normal', 'bold', 'c', '', 'none', '0', ' '),
   "<audio id='Audio2' style='' src='tick.wav'    ></audio>",
   "<audio id='Audio3' style='' src='correct.wav'    ></audio>",
   "<audio id='Audio4' style='' src='wrong.wav'    ></audio>",
+  "<label id='GameO' class='graytitle' style='text-align:center;  font-size:70px; font-family:helvetica; font-style:normal; font-weight:bold; color:RED; background-color:transparent; border-style:;border-color:transparent;border-width:1px; ' >GAME OVER!</label>",
   ].join('');
