@@ -1,6 +1,6 @@
 { "manifest_version": 2,
   "name": "SqueezeUrMind",
-  "version": "1.0.17",
+  "version": "1.0.19",
   "offline_enabled": true,
   "description": "",
   "icons": { "16": "nsb/images/16.png",
