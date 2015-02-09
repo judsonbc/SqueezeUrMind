@@ -1,4 +1,4 @@
-//Copyright (c) 2014 NS BASIC Corporation. All rights reserved.
+//Copyright (c) 2013 NS BASIC Corporation. All rights reserved.
 //Helper functions
 var True=true; TRUE=true;
 var False=false; FALSE=false;

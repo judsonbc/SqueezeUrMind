@@ -1,4 +1,4 @@
-// copyright 2014 NS BASIC Corporation. All rights reserved.
+// copyright 2013 NS BASIC Corporation. All rights reserved.
 
 NSB.$=function(id) {return document.getElementById(id)}
 
